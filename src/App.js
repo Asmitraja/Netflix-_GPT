@@ -1,11 +1,12 @@
-
-
-function App() {
+import React from 'react'
+import Body from './components/Body'
+const App = () => {
   return (
-    <div className="text-3xl font-mono text-green-700">
-      Namastey netflix gpt
+    <div>
+    <Body/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
